@@ -1,7 +1,3 @@
-# img ignore
-img/*
-!img/.gitkeep
-
 
 # other files
 .vs/
