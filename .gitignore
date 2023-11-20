@@ -1,7 +1,7 @@
-# ignore img files
+# ignore img files #
 img/
 
-# ignore other files
+# ignore other files #
 WinFormsApp1/
 .vs/
 *.txt
