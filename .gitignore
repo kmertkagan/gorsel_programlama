@@ -1,0 +1,7 @@
+# img ignore
+img/
+
+# other files
+.vs/
+WinFormsApp1/
+*.png
