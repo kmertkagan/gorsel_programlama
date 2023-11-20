@@ -59,5 +59,10 @@ namespace ders2
 
             label2.Text = toplam.ToString();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

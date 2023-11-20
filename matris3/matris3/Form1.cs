@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.VisualBasic;
+using Microsoft.VisualBasic; // 
 
 namespace matris3
 {
@@ -29,7 +29,7 @@ namespace matris3
             int i, j, n; 
             double kupler, kareler;
             string matris_view;
-
+            // çift indeksli i = 1 ve j = 1 , matris[i,j] küpü alınır çünkü i + j = 2 dir
             n = Convert.ToInt32(textBox1.Text);
             int[,] matris = new int[n+1, n+1];
             
@@ -46,17 +46,10 @@ namespace matris3
                     if ((i + j) % 2 == 0)
                     {
                         kupler += Math.Pow(matris[i, j], 3);
-                        if (i == n  && j == n )
-                            label4.Text += $"{matris[i, j]} ^ 3 = {kupler}";
-                        else
-                        {
-                            label4.Text += $"{matris[i, j]} ^ 3 + ";
-                        }
                     }
                     else
                     {
                         kareler += Math.Pow(matris[i, j], 2);                        
-                        label3.Text += $"{matris[i,j]} ^ 2 + "; 
                         
                     }
                     matris_view += $"{matris[i, j]} ";
