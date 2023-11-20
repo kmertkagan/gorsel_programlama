@@ -1,8 +1,0 @@
-# ignore img files #
-img/
-
-# ignore other files #
-WinFormsApp1/
-.vs/
-*.txt
-*.png
